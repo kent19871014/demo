@@ -1,0 +1,95 @@
+{"frames": {
+
+"num_0":
+{
+	"frame": {"x":1,"y":1,"w":24,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":36},
+	"sourceSize": {"w":24,"h":36}
+},
+"num_1":
+{
+	"frame": {"x":131,"y":1,"w":16,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":36},
+	"sourceSize": {"w":16,"h":36}
+},
+"num_2":
+{
+	"frame": {"x":1,"y":39,"w":24,"h":36},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":36},
+	"sourceSize": {"w":24,"h":36}
+},
+"num_3":
+{
+	"frame": {"x":27,"y":1,"w":24,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":36},
+	"sourceSize": {"w":24,"h":36}
+},
+"num_4":
+{
+	"frame": {"x":39,"y":39,"w":24,"h":36},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":36},
+	"sourceSize": {"w":24,"h":36}
+},
+"num_5":
+{
+	"frame": {"x":53,"y":1,"w":24,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":36},
+	"sourceSize": {"w":24,"h":36}
+},
+"num_6":
+{
+	"frame": {"x":77,"y":39,"w":24,"h":36},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":36},
+	"sourceSize": {"w":24,"h":36}
+},
+"num_7":
+{
+	"frame": {"x":79,"y":1,"w":24,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":36},
+	"sourceSize": {"w":24,"h":36}
+},
+"num_8":
+{
+	"frame": {"x":105,"y":1,"w":24,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":36},
+	"sourceSize": {"w":24,"h":36}
+},
+"num_9":
+{
+	"frame": {"x":115,"y":39,"w":24,"h":36},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":36},
+	"sourceSize": {"w":24,"h":36}
+}},
+"animations": {
+	"num": ["num_0.png","num_1.png","num_2.png","num_3.png","num_4.png","num_5.png","num_6.png","num_7.png","num_8.png","num_9.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "number.png",
+	"format": "RGBA8888",
+	"size": {"w":152,"h":64},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:60b69a990e2bf9c596524c938537b9bb:70304a8723f309ce4b13d95a875765c7:508720d883ff213f9536efb7456c155b$"
+}
+}
