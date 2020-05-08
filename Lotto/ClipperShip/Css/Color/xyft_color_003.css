@@ -1,0 +1,609 @@
+@charset "utf-8";
+/* --- leftmenu --- */
+.leftmenu > li > a:before {background-image:  url(../Images/xyft/leftmenu.png);}
+.leftmenu > li#limenu_039 > a:before,
+.leftmenu > li#limenu_040 > a:before,
+.leftmenu > li#limenu_038 > a:before {background-color: #db2b2c ;}
+.leftmenu > li#limenu_054 > a:before,
+.leftmenu > li#limenu_055 > a:before,
+.leftmenu > li#limenu_053 > a:before {background-color: #ac2cdb;}
+
+.leftmenu .txt-gray a {
+	color: #969494
+}
+.pkx-detail {
+	border-radius: 6px;
+	color: #000000;
+	overflow: hidden;
+}
+.bottom-wrap2 {
+	background-color: #fff;
+}
+.btn-left {
+	background-position: -77px -7px;
+	background-color: rgba(0,0,0,0.2);
+}
+.btn-right {
+	background-position: -92px -7px;
+	background-color: rgba(0,0,0,0.2);
+}
+.btn-left:hover, .btn-left:active {
+	background-color: rgba(0,0,0,0.4);
+}
+.btn-right:hover, .btn-right:active {
+	background-color: rgba(0,0,0,0.4);
+}
+.btn-left-ov, .btn-left-ov:hover, .btn-left-ov:active {
+	background-color: #dcdcdc;
+}
+.btn-right-ov, .btn-right-ov:hover, .btn-right-ov:active {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+a.cell-active:before, a.cell.active:before, .BetOption3a .BO3ul li a.cell-active b:before, .BetOption3a .BO3ul li a.cell.active b:before {
+	background-color: #3b3738!important;
+	border: 2px solid #fff;
+}
+.record-bar .number {
+	color: #FFF
+}
+.pkx-top h1, .pkx-top h2 {
+	color: #ffffff;
+}
+.pkx-top h1 {
+}
+/*lottery-info animation area*/
+.ssc .lottery-info {
+	background: url(../Images/xyft/003/lottery-info_003.jpg?0603) center top no-repeat;
+	box-shadow: 0 0 10px rgba(0,0,0,0.8) inset
+}
+.gray-outer .lottery-info {
+	background: url(../Images/xyft/003/grayouter_003.jpg?0603) center top no-repeat;
+}
+/*detail page lottery*/
+.pkx-detail.red-outer .lottery-info {
+	border-color: #767575!important;
+}
+
+.pkx-detail-bottom .bottom-wrap {
+	background-color: #fff;
+}
+.BetOption1 a.cell-active:before, .BetOption1 a.active:before, 
+.BetOption2 a.cell-active:before, .BetOption2 a.active:before, 
+.BetOption4 a.cell-active:before, .BetOption4 a.active:before {
+	top: -6px;
+	right: -6px;
+}
+.BetOption3a .BO3ul li a.cell-active b:before, .BetOption3a .BO3ul li a.cell.active b:before {
+	top: -8px;
+	right: -8px;
+}
+@media screen and (min-width: 1440px) and (max-width: 1679px) {
+.bet-option2 a.cell-active:before, .bet-option2 a.cell.active:before {
+	top: 0px;
+	right: 0px;
+}
+}
+.BetOption1, .BetOption2 {
+	background-color: #fff;
+}
+.BetOption1 {
+	border-right: 1px solid #ccc;
+}
+@media (max-width: 1280px) {
+.BetOption1 {
+	border-right: 0;
+	border-bottom: 1px solid #ccc;
+}
+}
+a.cell, .bet-option3.one a.cell b, .quick a {
+	border-color: #f8f4f4;
+	color:#000;
+	background: #f8f4f4;
+}
+/*FOR bet-option3.one*/
+a.cell, .quick a, .bet-option .title, .bet-option4 .title .top, .bet-option4 li div {
+} /*default style*/
+.green-outer a.txt-red, .green-outer .bet-option3.one a.txt-red b, .green-outer a.txt-red.cell-on:hover {
+	color: #E84E56;
+	text-shadow: none;
+} /*default txt-red*/
+.green-outer a.txt-red del, .org-outer a.txt-red del, .bet-option3.three a.cell.txt-red:hover del {
+	font-weight: bold;
+} /*default txt-red*/
+.green-outer a.cell.txt-red:hover del, .bet-option3.one a.txt-red del, .green-outer a.txt-red.unbet del, .bet-option3.three a.cell.txt-red.unbet del {
+	font-weight: normal;
+}
+.bet-stop a.cell.txt-red, .bet-stop a.cell.txt-red:hover, 
+.bet-stop .bet-option3.one a.txt-red b, 
+.bet-stop .bet-option3.one a.txt-red:hover b, 
+.bet-stop .bet-option3.one a.txt-red.unbet b, 
+.bet-stop .bet-option3.one a.txt-red.unbet:hover b {
+	color: #FF636A;
+	border: 1px solid #191919;
+	border-radius: 2px;
+	box-shadow: 0 0 4px rgba(255,255,255,.3), 0 2px 0 rgba(0,0,0,.2), inset 0 1px 0 rgba(255,255,255,.3);
+	background: url(../Images/xyft/003/cell_003.png) repeat;
+} /*bet-stop txt-red*/
+.bet-option3.three a.cell:hover,
+.bet-option3.three a.cell-on, 
+.bet-option3.three a.cell-active,
+.bet-option3.three a.active-on, 
+.bet-option3.three a.active,
+.bet-option3.three a.animation, 
+.bet-stop .bet-option3.three a.cell-active, 
+.bet-stop .bet-option3.three a.cell-active:hover, 
+.bet-stop .bet-option3.three a.txt-red, 
+.bet-option3.three a.txt-red:hover {
+	color: #fff
+} /*rainbow color*/
+.bet-stop .bet-option3.three a.cell-active.unbet, .bet-stop .bet-option3.three a.animation.unbet {
+	color: #fff!important
+}
+a.cell-active, .bet-option3.one a.cell-active b {
+	cursor: default
+} /*cell-active NO CURSOR*/
+a.cell-active.unbet {
+	cursor: default!important
+}
+.bet-stop a.cell,
+.bet-stop a.cell:hover, 
+.bet-stop .quick a, 
+.bet-stop .quick a:hover, 
+.bet-stop .bet-option3.one a b, 
+.bet-stop .bet-option3.one a:hover b, 
+.bet-stop .bet-option3.three a.cell, 
+.bet-stop .bet-option3.three a.cell:hover, 
+.bet-stop .bet-option4 .quick a, 
+.bet-stop .bet-option4 .quick a:hover, 
+.bet-stop .bet-option4 .quick a.unbet, 
+.bet-stop .bet-option4 .quick a.unbet:hover, 
+.gray-outer a.cell, .gray-outer .bet-option3.one a b, 
+.gray-outer .bet-option3.three a.cell, a.cell.unbet, 
+a.cell.unbet:hover, a.txt-red.unbet,
+a.txt-red.unbet:hover, a.cell-on.unbet, 
+a.cell-on.unbet:hover, a.active-on.unbet, 
+a.active-on.unbet:hover, 
+.bet-option4 .wrap .quick a.unbet, 
+.bet-option4 .wrap .quick a.unbet:hover, 
+.bet-stop .bet-option4 .wrap .quick a.unbet, 
+.bet-option3.one a.unbet b, 
+.bet-option3.one a.unbet:hover b, 
+.bet-option3.one a.txt-red.unbet b, 
+.bet-option3.one a.txt-red.unbet:hover b, 
+.bet-option3.three a.cell.unbet, 
+.bet-option3.three a.cell.unbet:hover, 
+.bet-option3.three a.unbet.txt-red, 
+.bet-option3.three a.unbet.txt-red:hover, 
+.gray-outer ul.TenCars li a.cell, 
+.gray-outer ul.TenCars li a.cell:hover {
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+/*bet-stop default style*/
+.bet-stop .bet-option3.one del, .gray-outer .bet-option3.one del {
+	color: #757575;
+	color: rgba(255,255,255,.3);
+}
+.bet-stop .bet-option3.one a, .gray-outer .bet-option3.one a {
+	cursor: default;
+}
+a.cell:hover, a.cell-on, a.active-on, 
+.bet-option4 .quick a:hover, 
+.bet-option3.one a:hover b, 
+.bet-option3.one a.cell-on b, 
+.bet-option3.one a.active-on b, 
+.bet-option3.one a.cell-active b, 
+.bet-option3.one a.active b, a.txt-red:hover, 
+.bet-option3.one a.txt-red:hover b, 
+a.cell-active, a.cell-active:hover, 
+.bet-stop a.cell-active, 
+.bet-stop a.cell.cell-active:hover, 
+.bet-stop .bet-option3.one a.cell-active b, 
+.bet-stop .bet-option3.one a.cell.cell-active:hover b, 
+a.unbet.cell-active, a.unbet.cell-active:hover,
+a.unbet.active, a.unbet.active:hover, 
+.bet-option3.one a.unbet.cell-active b, 
+.bet-option3.one a.unbet.cell-active:hover b, 
+.org-outer a.unbet.active,
+.org-outer.bet-stop a.unbet.active:hover,
+.bet-stop a.cell.active,
+.bet-stop a.cell.active:hover,
+.bet-option3.one a.active b,
+.bet-stop .bet-option3.one a.active.cell:hover b,
+.bet-option3.one a.unbet.active b,
+.bet-option3.one a.unbet.active:hover b,
+.org-outer a.cell-active,
+.org-outer a.cell.cell-active:hover,
+.org-outer .bet-option3.one a.cell-active b,
+.org-outer .bet-option3.one a.cell-active.cell:hover b,
+.org-outer.bet-stop a.unbet.cell-active,
+.org-outer.bet-stop a.unbet.cell-active:hover,
+.bet-option5 a.cell-on.txt-red,
+.bet-option5 a.cell-on.txt-red:hover {
+	background-color: #c3232b;
+	color: #fff;
+	border-color: #c3232b;
+} /*org-outer hover, cell-on, cell-active, active-on, cell-active and active style*/
+a.cell.unbet:hover {
+	background-color: #FFF !important;
+	color: #000 !important;
+	cursor:default;
+} 
+.bet-stop a.animation, .bet-stop a.cell.animation:hover, .bet-stop .bet-option3.one a.animation b, .bet-stop .bet-option3.one a.cell.animation:hover b, .bet-stop a.animation.cell-active, .bet-stop a.animation.cell-active.cell:hover, .bet-stop .bet-option3.one a.animation.cell-active b, .bet-stop .bet-option3.one a.animation.cell-active:hover b, .org-outer.bet-stop a.animation.cell-active.unbet, .org-outer.bet-stop a.animation.cell-active.unbet:hover {
+	background: #E0E0E0;
+	color: #D44249;
+	text-shadow: none;
+	box-shadow: 0 0 4px rgba(255,255,255,.3), 0 2px 0 rgba(0,0,0,.2), inset 0 1px 0 #8a8a8a, inset 0 -1px 0 #eee;
+}
+a.animation, a.cell.active, .bet-option3.one a.animation b {
+	box-shadow: none
+}
+a.cell:hover, a.cell-on, a.cell-active, a.active-on, .quick a:hover, a.cell.active, a.cell.active:hover, a.animation, a.animation:hover, .bet-stop a.txt-red, .bet-stop a.animation.unbet, .bet-stop a.animation.unbet:hover, .bet-option3.one a.cell-on b, .bet-option3.one a.cell-active b, .bet-option3.one a.active-on b, .bet-option3.one a.active b, .bet-option3.one a.animation b, .bet-stop .bet-option3.one a.txt-red b, a.unbet.cell-active, a.unbet.cell-active:hover {
+	text-shadow: none;
+}
+.statistics-select a {
+	color: #fff;
+	border: 1px solid #dadada;
+	background-color: #dadada;
+}
+.statistics-select a:hover, .statistics-select .on a, .statistics-select .on a:hover {
+	color: #fff;
+	background-color: #b5b5b5;
+	border: 1px solid #b5b5b5;
+}
+.statistics li div, .statistics .title .bottom, .menu2 {
+	border-color: #ccc;
+}
+/*tab-bottom*/
+.tab-bottom li, .tab-option li {
+	border-color: #666464!important;
+	border-top: none;
+	border-radius: 0 0 6px 6px;
+	box-shadow: 0 3px 4px rgba(0,0,0,.5)
+}
+.tab-bottom li a, .tab-option li a {
+	color: #fff;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.26);
+	border-radius: 0 0 4px 4px;
+}
+.tab-bottom li.active, .tab-bottom li:hover, .tab-option li.active, .tab-option li:hover {
+	border-color: #666464!important;
+	position: relative;
+	z-index: 1
+}
+.statistics-cont ul, .statistics-cont ul li, .data-content {
+	border-color: #d3d7d9;
+}
+.menu1 li {
+	border-color: #d3d7d9;
+}
+.menu1 li a {
+	color: #929292;
+	white-space: nowrap;
+	background-color: #ebeef3;
+}
+.menu1 li:hover a, .menu1 li.active a, .menu1 li.active:hover a {
+	color: #af1c23;
+	background: #fff;
+}
+.menu2 li.active:after, .menu2 li:hover:after {
+	display: none
+}
+.menu2 .btn-prev:hover, .menu2 .btn-next:hover, .menu2 .btn-prev-ov:hover, .menu2 .btn-next-ov:hover, .menu2 .btn-refresh:hover {
+	border-radius: 0;
+	border-left: 1px solid #717171;
+	border-top: none!important;
+}
+.menu2 .btn-prev:hover, .menu2 .btn-next:hover, .menu2 .btn-prev-ov:hover, .menu2 .btn-next-ov:hover {
+	border-right: none!important;
+}
+.menu2 .btn-refresh, .menu2 .btn-refresh:hover {
+	border-right-color: transparent!important;
+}
+.menu2 .btn-prev, .menu2 .btn-next, .menu2 .btn-prev-ov, .menu2 .btn-next-ov, .menu2 .btn-refresh, .menu2 .btn-refresh:hover {
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	border-right: none;
+	margin-right: 0;
+}
+.menu2 .btn-prev:hover, .menu2 .btn-next:hover, .menu2 .btn-prev-ov:hover, .menu2 .btn-next-ov:hover, .menu2 .btn-refresh:hover {
+	border-radius: 0;
+	border-left: 1px solid #464646;
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+.menu2 .btn-refresh a {
+	background-position: -280px -7px;
+}
+.menu2 .btn-refresh:hover a {
+	box-shadow: none;
+	background-position: -280px -31px;
+}
+.menu2 .btn-prev a {
+	background-position: -241px -7px;
+}
+.menu2 .btn-next a {
+	background-position: -259px -7px;
+}
+.menu2 .btn-prev:hover a {
+	box-shadow: none;
+	background-position: -241px -31px;
+}
+.menu2 .btn-next:hover a {
+	box-shadow: none;
+	background-position: -259px -31px;
+}
+.menu2 .btn-prev-ov a, .menu2 .btn-prev-ov:hover a {
+	background-position: -241px -7px;
+	opacity: 0.3;
+}
+.menu2 .btn-next-ov a, .menu2 .btn-next-ov:hover a {
+	background-position: -259px -7px;
+	opacity: 0.3
+}
+.border-row, .border-all {
+	border-bottom-color: #000000 !important;
+}
+.border-col, .border-all, .statistics-cont ul:first-child .border-col, .statistics-cont ul:first-child .border-all {
+	border-left: 1px solid #000000 !important;
+}
+
+.pkx-detail .lottery-info .enter {
+	line-height: 23px;
+	border-radius: 12px;
+	color: #fff;
+	background: #5d5d5d;
+}
+.pkx-detail .lottery-info .enter:hover, .pkx-detail .lottery-info .enter:active {
+	background-color: #7d7d7d;
+}
+.pkx-detail .game-status {
+	background:rgb(125, 12, 17);
+}
+.pkx-detail .game-status ul li span {
+	background: url(../Images/xyft/003/uni_icon_003.png) -202px -54px no-repeat;
+}
+.skip2 {
+	background: #af1c23; 
+}
+/*topbg*/
+.pkx-detail .history-info {
+	background-image: url(../Images/xyft/003/TopAside_BG_003.jpg);
+	position: relative;
+	overflow: hidden;
+}
+.pkx-detail .lottery-info {
+	background-image: url(../Images/xyft/003/TopAside_BG2_003.jpg);
+}
+.pkx-detail .stop-info {
+	background-image: url(../Images/xyft/003/TopAside_BG2_003.jpg);
+}
+.pkx-detail .history-info, .pkx-detail .lottery-info {
+	background-color: #ffffff;
+}
+.pkx-detail .result-number li {
+	color: #fff;
+}
+.bet-option4-wrap {
+	border: none;
+}
+.bet-option4 {
+	margin-bottom: 0
+}
+/*.form-star*/
+.form-star input[type="radio"]:checked + label, .form-star input[type="radio"]:hover + label {
+	color: #fff
+}
+.form-star label, .bet-option4 .title .bottom {
+	color: #cecece
+}
+.statistics .title .bottom, .statistics .CarNo {
+	border-bottom: 1px solid #ccc;
+}
+.form-star .two {
+	border-color: #a9b2b4!important;
+}
+/*popup*/
+.popup {
+	padding-bottom: 28px;
+	background: url(../Images/xyft/004/popup_bottom_003.png) left bottom no-repeat
+}
+.popup .top-bg {
+	height: 12px;
+	background: url(../Images/xyft/004/popup_top_003.png) left top no-repeat
+}
+.popup .pop-wrap {
+	background: url(../Images/xyft/004/popup_mid_003.png) left top repeat-y
+}
+ @media screen and (max-width: 1279px) {
+.popup.style1 {
+	background: url(../Images/xyft/004/popup_bottom_003_1024.png) left bottom no-repeat
+}
+.popup.style1 .top-bg {
+	background: url(../Images/xyft/004/popup_top_003_1024.png) left top no-repeat
+}
+.popup.style1 .pop-wrap {
+	background: url(../Images/xyft/004/popup_mid_003_1024.png) left top repeat-y
+}
+.popup.style2.arrow-right:before {
+	background: url(../Images/xyft/004/popup-arrow_003.png) -55px top no-repeat;
+	bottom: -14px;
+}
+.popup.style1.arrow-left:before {
+	background: url(../Images/xyft/004/popup-arrow_003.png) -30px top no-repeat;
+	top: -9px;
+}
+}
+.popup.arrow-left:before, .popup.arrow-right:before {
+	width: 10px;
+}
+.popup.arrow-left:before {
+	background: url(../Images/xyft/004/popup-arrow_003.png) 0 top no-repeat;
+	left: -7px
+}
+.popup.arrow-right:before {
+	background: url(../Images/xyft/004/popup-arrow_003.png) -15px top no-repeat;
+	right: -5px
+}
+.popup.arrow-top:before {
+	background: url(../Images/xyft/004/popup-arrow_003.png) -30px top no-repeat;
+	top: -9px;
+}
+.popup.arrow-bottom:before {
+	background: url(../Images/xyft/004/popup-arrow_003.png) -55px top no-repeat;
+	bottom: -14px;
+}
+.popup .top-wrap {
+	border-bottom: 1px solid #3C3B3B;
+}
+.popup .pop-title {
+	border-bottom: 1px solid #3C3B3B;
+	padding: 10px 0;
+}
+.popup .list {
+	border-bottom: 1px solid #3C3B3B
+}
+.popup a.btn-close {
+	background: url(../Images/xyft/003/uni_icon_003.png) -440px top no-repeat;
+}
+.popup a.btn-close:hover, .popup a.btn-close:active {
+	background: url(../Images/xyft/003/uni_icon_003.png) -440px -28px no-repeat;
+}
+.popup .top-wrap, .popup .total {
+	text-shadow: 1px 1px 1px #383E43;
+}
+.popup .bottom-wrap {
+	border-top: none;
+	padding: 12px;
+}
+.popup a.btn-clear {
+	color: #B3B3B3;
+}
+.popup a.btn-clear:hover, .popup a.btn-clear:active {
+	color: #fff
+}
+.popup .btn-clear:before {
+	background: url(../Images/xyft/003/uni_icon_003.png) -462px top no-repeat;
+}
+.popup .btn-clear:hover:before, .popup .btn-clear:active:before {
+	background: url(../Images/xyft/003/uni_icon_003.png) -462px -28px no-repeat;
+}
+.popup a.btn-submit {
+	background: #A91117;
+	border-radius: 3px;
+	color: #fff;
+	box-shadow: 0 3px 2px 0 rgba(0,0,0,.39)!important;
+}
+.popup a.btn-submit:hover, .popup a.btn-submit:active {
+	background: #B71219;
+}
+/*alert-wrap*/
+.alert-wrap {
+	border-radius: 10px;
+	box-shadow: 0px 2px 8px 0 #000;
+	background: #383838;
+	color: #D8D1D1;
+}
+.alert-wrap header {
+	background: #C5464B;
+	border-radius: 8px 8px 0 0;
+	overflow: hidden;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.61);
+	color: #fff;
+}
+.alert-wrap .close-btn {
+	background: url(../Images/xyft/003/uni_icon_003.png) -948px top no-repeat
+}
+.alert-wrap .close-btn:hover, .alert-wrap .close-btn:active {
+	background: url(../Images/xyft/003/uni_icon_003.png) -985px top no-repeat
+}
+.alert-wrap p {
+	color: #FF565D;
+}
+/*rule*/
+.rule-wrap {
+	background: rgb(80, 80, 80);
+	border-radius: 6px;
+}
+.rule-menu {
+	border-radius: 6px 0 0 6px;
+	box-shadow: -1px 0 5px 0 rgba(255, 255, 255, 0.07);
+	background: #ffffff;
+}
+.rule-menu a {
+	color: #353535;
+	border-radius: 4px;
+}
+.rule-menu a:hover, .rule-menu a:active, .rule-menu li.active a {
+	background: #af1c23;
+	color: #fff;
+}
+.rule-content .content {
+	overflow: hidden;
+	border-radius: 0 10px 10px;
+	box-shadow: -6px 2px 8px 0 rgba(0, 0, 0, 0.22);
+}
+.rule-content .content header {
+	background: #af1c23;
+	overflow: hidden;
+	color: #fff;
+}
+.rule-content .content .article {
+	background: #ffffff;
+	color: #333;
+}
+.rule-content .content .article h2 {
+	font-weight: bold
+}
+/*------------------customization 001----------------------*/
+/*transition*/
+a.cell.animation {
+	transition: none;
+	-webkit-transition: none
+}
+a.cell:hover {
+	transition: all .15s ease-in-out;
+	-webkit-transition: all .15s ease-in-out;
+}
+/*The height of tabs*/
+.tab-bottom li.active a, .tab-bottom li:hover a, .tab-option li.active a, .tab-option li:hover a {
+	padding: 6px 4px;
+}
+.bet-option4-wrap .tab-content {
+	position: relative;
+	top: -4px;
+	min-height: 285px;
+}
+.form-star {
+	padding: 15px 5px 7px;
+}
+.bet-option3-wrap {
+	margin: 11px 0 2px
+}
+/*---TabOption---*/
+.TabOption li .flag {
+	background-color: #db2b2c;
+	color: #fff;
+}
+.detail-wrap ul.TabOption {
+	background: #fff;
+}
+.detail-wrap ul.TabOption li a.active:after{
+	background-color: #ac2f30;
+}
+.gray-outer ul.TenCars li a .CarBg {
+	opacity: .5;
+}
+.stop-bet:before {background-color: rgba(175, 28, 35, 0.14);}
+/*pkx-detail-bottom PDBtitle*/
+.other-result ul li {
+	background-color: #fff;
+	box-shadow: 0 1px #fa9ca3;
+	box-shadow: 0 1px rgba(248, 93, 104, 0.5);
+}
+/*color*/
+.btn-broadcast:hover{
+	background-color: #921a1f
+}
+.popup-broadcast {
+	background-color: #9c292b;
+	color: #fff;
+}

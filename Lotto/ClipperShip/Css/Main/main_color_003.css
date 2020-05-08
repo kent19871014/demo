@@ -1,0 +1,864 @@
+@charset "utf-8";
+/*------------------------------universe color--------------------------*/
+.html {
+	background-color: #37393a;
+	border-top: 1px solid #565858;
+}
+body, .main-content {
+	color: #000000;
+}
+/* --- leftmenu --- */
+
+.leftmenu a {color: #838080;}
+.leftmenu li:hover a, .leftmenu a:active, .leftmenu .active a {color: #fff;}
+.leftmenu .count {
+	background: #f1f1f1;
+	color: #000;
+}
+.leftmenu .flag { background-color:#db2b2c}
+.cell .flag ,.active-on .flag{background-color: #f3564b;}
+.leftmenu li.active .flag, .leftmenu li:hover .flag {
+	background-color: #db2b2c;
+}
+/* RIGHT ASIDE */
+.quick .poptop-cont:before {
+	background: url(../Images/xyft/quickbet-arrow_003.png) 0 0 no-repeat;
+}
+.quick input, .betcontent .total input {
+	background: #888;
+	color: #fff;
+}
+.quick input:hover, .quick input:focus, .betcontent .total input:hover, .betcontent .total input:focus {
+	background: #686868;
+	color: #ffffff;
+}
+a.lb-btn, .bests .bests-btn a {
+	background: #f1404c !important;
+	border: 1px solid #f1404c !important;
+	border-radius: 4px!important;
+	box-shadow: none!important;
+}
+a.lb-btn:hover, a.lb-btn:active, .bests .bests-btn a:hover, .bests .bests-btn a:active {
+	background: #cc2e38 !important;
+	border: 1px solid #cc2e38 !important;
+}
+.quick-box, .quick-box2 {
+	background-color: #ffffff;
+	color: #000!important;
+}
+.quick-box .form1 .input {
+	background: #ececec !important;
+	color: #000 !important;
+	border-radius: 2px;
+	border: 0;
+	box-shadow: inset 1px 1px #ccc;
+}
+.quick-box .form1 .input:hover, .quick-box .form1 .input:focus {
+	background: #db2b2c !important;
+	color: #fff !important;
+}
+.quick-box a.edit {
+	border: none !important;
+	background: #db2b2c !important;
+}
+.quick-box a.edit:hover, .quick-box a.edit:active {
+	border: none !important;
+	background: #e25556!important;
+}
+.quick-bet a {
+	color: #fff;
+}
+.quick-bet a:after {background: url(../Images/xyft/003/uni_icon_003.png) -37px -47px no-repeat;}
+.quick-bet a:hover:after {background: url(../Images/xyft/003/uni_icon_003.png) -37px -68px no-repeat;}
+.quick-bet a.active:after {background: url(../Images/xyft/003/uni_icon_003.png) -37px -5px no-repeat;}
+.quick-bet a.active:hover:after {background: url(../Images/xyft/003/uni_icon_003.png) -37px -26px no-repeat;}
+.quick-bet a.quick-tip-link {
+   background: url(../Images/xyft/003/uni_icon_003.png?0603) -118px -39px no-repeat;
+}
+.quick-bet a.quick-tip-link:hover {
+	background-color: #f5000c;
+}
+.account-area {
+	border-radius: 6px;
+}
+.oneplatform .account-area {
+	background: none
+}
+.account-bar {
+	color: #fff;
+}
+.icon-member {
+	background: url(../Images/xyft/003/uni_icon_003.png) -6px -5px no-repeat;
+}
+.bet-list a {
+	color: #000;
+	background: #eacccc;
+}
+.bet-list a:hover {
+	background-color:#af1c23;
+	color:#fff;
+	
+}
+.bet-list .mybet {
+	border-radius: 0 0 10px 0;
+}
+.bet-list .history {
+	border-radius: 0 0 0 10px
+}
+.bet-list .mybet a {
+	background-color: #fff;
+}
+.bet-list .mybet a:hover, .bet-list .mybet.on a {
+	color: #db2b2c;
+}
+.bet-list .history a {
+	background-color: #fff;
+	color: #000;
+}
+.bet-list .history a:hover, .bet-list .history.on a {
+	color: #db2b2c;
+}
+.bet-list .mybet a:before {background: url(../Images/xyft/icon_mybet1.png) 5px 5px no-repeat;}
+.bet-list .history a:before {background: url(../Images/xyft/icon_mybet2.png) 5px 5px no-repeat;}
+.bet-list .mybet a{
+	
+}
+.oneplatform .bet-list .mybet a {
+}
+.oneplatform .bet-list .mybet a:hover, .oneplatform .bet-list .mybet.on a {
+	color: #db2b2c;
+}
+.oneplatform .bet-list .history a {
+}
+.oneplatform .bet-list .history a:hover, .oneplatform .bet-list .history.on a {
+	color: #db2b2c;
+}
+.droplist {
+	background: #fff;
+	box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.85);
+	border-radius: 0 0 8px 8px;
+}
+.droplist:hover {
+}
+.droplist a del {
+	background: #ffffff;
+	color: #db2b2c;
+	border-radius: 8px;
+	border: 1px solid #af1c23;
+}
+.betslip-area h3 {
+	color: #fff;
+}
+.betslip, .parlay-area ul {
+	border-radius: 6px;
+	background-color: #ffffff;
+}
+.parlay-area ul {
+	border-radius: 0 0 6px 6px;
+	margin: -2px 0 6px 0;
+}
+.betslip-area-bg {
+	display: inline-block;
+	margin-bottom: 7px;
+}
+.betslip a.btn-close {
+	background-color: #db2b2c;
+}
+.betslip a.btn-close:hover, .betslip a.btn-close:active {
+	background-color: #e25556;
+}
+.receipt-header,.btns a{
+	color: #fff;
+}
+.btns a:hover {
+	color: #db2b2c;
+}
+.betslip-option a {
+	border-radius: 2px;
+}
+.betslip-option a:hover, .betslip-option .on {
+	color: #db2b2c;
+}
+.betslip-option a.chase.on {
+	border-bottom: 1px solid transparent!important;
+}
+.odds-4 a.chase.on b {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -287px -19px no-repeat!important;
+}
+.betslip-option a.chase b {
+	background: url(../Images/xyft/003/uni_icon_003.png) -176px -6px no-repeat;
+}
+.betslip-option a.chase.on b {
+	background: url(../Images/xyft/003/uni_icon_003.png) -176px -21px no-repeat;
+}
+.mix-title {
+	background-color: #db2b2c;
+	border-radius: 6px 6px 0 0;
+}
+.mix-title a {
+	color: #fff;
+}
+.mix-title a:hover {
+	color: #fff;
+}
+.right-aside .total {
+	background: #ffffff;
+	border-radius: 6px;
+}
+.alert-box {
+	color: #FFEB3B;
+}
+.total a, .bet-note a {
+	background-color: #db2b2c;
+	border-radius: 4px;
+	color: #fff;
+}
+.total a:hover, .bet-note a:hover, .bet-note a:active {
+	background-color: #e25556;
+}
+.quick-wrap a.btn-quick, .quick-box2 .input-edit {
+	background: #efb4b7;
+	background: rgba(219, 43, 44, 0.3) !important;
+	color: #333 !important;
+}
+.quick-wrap a.btn-quick:hover, .quick-wrap a.btn-quick:active {
+	background: #db2b2c !important;
+	color: #fff !important;
+}
+.quick-box2 .input-edit:hover, .quick-box2 .input-edit:focus {
+	background: #f1404c !important;
+	color: #fff !important;
+	border: none !important;
+}
+.quick-box2 a.finish-edit:hover, .quick-box2 a.finish-edit:active {
+	background: #cc2e38 !important;
+	border-bottom: 2px solid #b9252e !important;
+}
+.quick-box2 a.finish-edit {
+	background: #f1404c !important;
+	border-bottom: 2px solid #c02429 !important;
+}
+a.lb-btn {
+}
+a.lb-btn:hover {
+}
+.quick input {
+}
+.quick input:hover, .quick input:focus {
+}
+.betslip .bet-content, .betslip .bet-type, .betslip .bet-note li {
+	border-bottom: 1px solid #ccc;
+}
+.betslip .bet-content {
+	border-top: none
+}
+.betslip .bet-content li, .list-content li {
+}
+.parlay-area li {
+	border-bottom: 1px solid #3E3E3E;
+}
+.betslip .odds {
+	color: #3F3F3F;
+	border-radius: 2px;
+}
+.betslip input, .parlay-area input {
+	background: #777676;
+    color: #fff;
+    border-radius: 2px;
+    border: 0;
+}
+.betslip input:hover, .betslip input:focus {
+	background: #37393a;
+    color: #fff;
+    box-shadow: none;
+}
+.parlay-area input {}
+.parlay-area input:hover, .parlay-area input:focus, .betslip input:hover, .betslip input:focus {
+    background: #37393a;
+    color: #fff;
+}
+.frozen {
+/*background-color: #504F4F !important;
+border: 1px solid #504F4F !important;*/
+}
+.betslip .bet-note del, .checkboxes p {
+	color: #ffffff;
+}
+.parlay-area li:first-child {
+	border-top: none
+}
+.parlay-area li:last-child, .noborder li:last-child {
+	border-bottom: none !important
+}
+.bet-content ul li del {
+	background: url(../Images/xyft/003/betslip_ball_003.png) left 0 no-repeat;
+	color: #fff
+}
+/*betslip*/
+.b-highlight {
+	color: #cd161e
+}
+/*.set-js*/
+.checkboxes {
+	background: #db2b2c;
+	color: #fff;
+	border-radius: 3px;/* border: 1px solid #1F242A; */
+}
+.checkboxes input {
+	background-color: #ffffff;
+	color: #252525;
+	border: 0;
+}
+.checkboxes input:hover, .checkboxes input:focus {
+	background: #ffffff;
+	color: #000;
+}
+.unwork {
+	color: #8E8E8E
+}
+/*top-bar*/
+.top-bar .news_box {
+	color: #fff;
+}
+.top-bar .news_box span {
+	background: url(../Images/xyft/003/icon_news_003.png) 0 4px no-repeat;
+}
+.top-bar .news_box span:hover, .top-bar .news_box span:active {
+	color: #db2b2c;
+}
+.top-bar .btn-switch {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -167px 9px no-repeat;
+}
+.top-bar .btn-switch:hover, .top-bar .btn-switch:active {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -167px -18px no-repeat;
+}
+.top-bar .btn-switch-on {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -484px 7px no-repeat;
+}
+.top-bar .btn-switch-on:hover, .top-bar .btn-switch-on:active {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -484px -20px no-repeat;
+}
+.top-bar .btn-rule {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -118px -5px no-repeat;
+}
+.top-bar .btn-rule:hover, .top-bar .btn-rule:active {
+}
+/*news_lightbox*/
+.news_lightbox {
+	background: #5A5A5A;
+	border-radius: 4px;
+	border: 2px solid #DADADA;
+	color: #fff;
+}
+.news_lightbox a.close, .rule-wrap a.close {
+	background-color: #0e0e0e;
+}
+.news_lightbox a.close:hover, .news_lightbox a.close:active, .rule-wrap a.close:hover, .rule-wrap a.close:active {
+	background-color: #e25556;
+}
+.news_lightbox h2 {
+	border-bottom: 1px solid #757575;
+}
+.news_lightbox .content-wrap {
+	border-bottom: 1px solid #757575;
+}
+.news_lightbox .article li {
+	border-bottom: 1px solid #757575;
+}
+.news_lightbox .page-wrap2 {
+	border-top: 1px solid #5a6269;
+}
+.news_lightbox .page-wrap2 li {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -802px 0 no-repeat
+}
+.news_lightbox .page-wrap2 li:hover {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -802px -19px no-repeat
+}
+.news_lightbox .page-wrap2 li.active, .news_lightbox .page-wrap2 li:active {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -802px -38px no-repeat
+}
+.mask-box2 {
+	background: url(../Images/xyft/003/blockOverlay_003.png) repeat;
+	opacity: 0.6;
+}
+
+/*---------------------------END universe color--------------------------*/
+
+/*scrollbar*/
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background-color: #797979!important;
+	opacity: .5;
+	right: 1px;
+}
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+	background-color: #8C8C8C!important;
+}
+/*slimScrollBar*/
+.slimScrollBar {
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	background: #9A9A9A!important;
+	opacity: .5!important;
+}
+.slimScrollBar:hover, .slimScrollBar:active {
+	background: #8C8C8C!important
+}
+.slimScrollRail {
+	background: transparent!important
+}
+/*------------------- Betslip status -------------------*/
+
+.betslip .odds-2 {
+	background: #fc969e;
+	background: rgba(248, 93, 104, 0.4);
+	color: #fff;
+	padding: 0 2px;
+}
+.odds-4 .betslip {
+	background-color: #4D4D4D;
+	color: #6F6F6F;
+}
+.odds-4 .bet-content, .odds-4 .bet-type, .odds-4 .bet-note li {
+	border-bottom: 1px solid #5F5F5F;
+	border-top: none;
+}
+.odds-4 .odds-1 {
+	border-bottom: none;
+	background-color: #5A5A5A;
+	color: #7B7B7B;
+}
+.odds-4 .odds {
+	background: #484848;
+	color: #6F6F6F;
+}
+.odds-4 .odds-2 {
+	background: #3C3C3C;
+	color: #6D7175;
+}
+.odds-4 .odds-1 .odds-2 {
+	background: #43464A;
+	color: #777777;
+}
+.odds-4 .betslip-option a, .odds-4 .betslip-option a:hover {
+	color: #6F6F6F;
+	border: 1px solid #4D4D4D;
+	background: none;
+}
+.odds-4 .betslip-option .on, .odds-4 .betslip-option .on:hover {
+	color: #7B7B7B;
+}
+.odds-4 .checkboxes {
+	background-color: #5A5A5A;
+	border: 1px solid #444444;
+}
+.odds-4 .checkboxes p {
+	color: #7B7B7B
+}
+.odds-4 input, .odds-4 input:hover, .odds-4 input:focus {
+	background-color: #484848;
+	border: 1px solid #484848;
+	color: #6F6F6F;
+}
+.odds-4 .checkboxes input, .odds-4 .checkboxes input:hover, .odds-4 .checkboxes input:focus {
+	background-color: #525252;
+	border: 1px solid #525252;
+	color: #6B6B6B;
+}
+.odds-4 .checkboxes .less a, .odds-4 .checkboxes .less a:hover {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -862px -26px no-repeat
+}
+.odds-4 .checkboxes .more a, .odds-4 .checkboxes .more a:hover {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -880px -26px no-repeat
+}
+.checkboxes .check {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -287px 0 no-repeat
+}
+.checkboxes .check.on {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -287px -19px no-repeat
+}
+/*------------------- report -------------------*/
+.radius-wrap {
+	border-radius: 0 0 6px 6px;
+	position: relative!important;
+	background-color: #fff;
+	overflow: hidden;
+}
+.radius-wrap:after {
+	content: "";
+}
+@media only screen and (max-width: 1279px) {
+.radius-wrap:after {
+	background: url(../Images/xyft/003/report_shadow1024.png) center top no-repeat
+}
+}
+.report-head {
+	background: #a20d14;
+	border-radius: 6px 6px 0 0;
+}
+.drop-down-report a, .drop-down-report2 a {
+	color: #ffffff;
+}
+.drop-down-report > li:hover > a:after, .drop-down-report2 > li:hover > a:after {
+}
+.drop-down-report ul, .drop-down-report2 ul {
+	border-radius: 4px; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-color: #525252;
+}
+.drop-down-report ul a, .drop-down-report2 ul a {
+	border-radius: 4px;
+	color: #fff;
+}
+.drop-down-report ul li:hover a, .drop-down-report2 ul li:hover a {
+	background-color: #929292;
+	background-color: rgba(255, 255, 255, 0.23);
+}
+.drop-down-report ul:before, .drop-down-report2 ul:before {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -588px 0 no-repeat
+}
+.drop-down-report > li > a, .drop-down-report2 > li > a {
+}
+.report-option input[type="text"] {
+	border-radius: 4px;
+	background: #fff;
+	color: #3C3C3C;
+}
+.report-option input::-webkit-input-placeholder {
+color: #64686c
+}
+.report-option input:-moz-placeholder {
+color: #64686c
+}
+.report-option input:-ms-input-placeholder {
+color: #64686c
+}
+.report-option input[type="text"]:hover, .report-option input[type="text"]:focus {
+	background: #d0d0d0;
+	color: #fff;
+}
+.report-option input:hover::-webkit-input-placeholder, .report-option input:focus::-webkit-input-placeholder {
+color: #fff
+}
+.report-option input:hover:-moz-placeholder, .report-option input:focus:-moz-placeholder {
+color: #fff
+}
+.report-option input:hover:-ms-input-placeholder, .report-option input:focus:-ms-input-placeholder {
+color: #fff
+}
+.report-option label {
+	color: #ffffff;
+}
+.report-option input[type="radio"]:checked + label, .report-option .label1:hover, .report-option .label2:hover, .report-option .label3:hover {
+	color: #fff
+}
+ @media only screen and (max-width: 1365px) {
+.report-option {
+	background: rgba(255, 255, 255, 0.2);
+	width: 100%;
+}
+.report-option.type2 {
+}
+}
+.list-content-wrap {
+	border-radius: 0 0 10px 10px;
+	background-color: #fff;
+}
+.list-content-wrap > .list-content:first-child {
+	border-top: 1px solid #ccc;
+}
+.list-content {
+	background: #ffffff;
+}
+.list-title > *, .list-title3 .four .wrap > *, .list-title3-2 .five .wrap > *, .list-title4 .five .wrap > *, .list-title4 .six .wrap > *, .list-title4-2 .six .wrap > * {
+	border-color: #961919;
+}
+.list-title {
+	background: #790d12;
+	color: #fff;
+}
+.list-title3, .list-title4 {
+}
+.list-title3-2, .list-title4-2 {
+	border-bottom: none;
+	background: url(../Images/xyft/003/report_header_003.jpg) left top no-repeat;
+}
+.list-content, .list-content > *, .list-content3 .four .wrap > *, .list-content3 .five .wrap > *, .list-content4 .five .wrap > *, .list-content4 .six .wrap > * {
+	border-color: #ccc;
+}
+.list-content:hover {
+	background: #ececec;
+}
+.list-content:hover, .list-content:hover > *, .list-content3:hover .four .wrap > *, .list-content3:hover .five .wrap > *, .list-content4:hover .five .wrap > *, .list-content4:hover .six .wrap > * {
+	border-color: #ccc;
+	color: #363b40;
+}
+.report-gray {
+	background-color: #f1f1f1;
+}
+.report-gray, .report-gray > * {
+	border-color: #ccc;
+}
+.subtotal, .subtotal:hover {
+	color: #fff;
+	border-bottom: none;
+	border-top: 1px solid #ccc;
+}
+.subtotal > * {
+	border-color: #ccc;
+	color: #000;
+}
+.subtotal:hover > * {
+	border-color: #ccc;
+	color: #db2b2c;
+}
+.list-content .six a:hover, .list-content .six a:active {
+	background: #db2b2c;
+	color: #fff;
+}
+.list-content .three a {
+	color: #EEDDA9;
+	border: 1px solid transparent;
+}
+.list-content .three a:hover, .list-content:hover .three a {
+	padding: 2px 5px;
+	border-radius: 15px;
+	background: #515254;
+	color: #EEDDA9;
+}
+.drop-down-title3 {
+	border: 1px solid #6B6B6B;
+	border-radius: 2px;
+}
+.drop-down-title3 li a {
+	color: #fff;
+	margin: 0;
+}
+.drop-down-title3 ul {
+	background: #2C2C2C;
+	border: 1px solid #6B6B6B;
+	border-radius: 0 0 2px 2px;
+}
+.drop-down-title3 ul li:hover a {
+	background: #000;
+}
+.page-wrap > a, .page-wrap > input, .page-wrap > span {
+}
+.page-wrap a {
+	background: #fff;
+	color: #db2b2c;
+	border: 1px solid #efb4b7;
+	border: 1px solid rgba(219, 43, 44, 0.3);
+}
+.page-wrap .page:hover, .page-wrap .page:active, .page-wrap .page.active {
+	background: #db2b2c;
+	color: #fff;
+}
+.page-wrap .page2 {
+	background: #db2b2c;
+	border-radius: 12px;
+	color: #Fff;
+}
+.page-wrap .page2:hover, .page-wrap .page2:active, .page-wrap .page2.active {
+	background: #e25556;
+}
+.page-wrap .btn-left-arrow, .page-wrap .btn-right-arrow {
+	background-color: #db2b2c;
+}
+.page-wrap .btn-left-arrow:hover, .page-wrap .btn-left-arrow:active, .page-wrap .btn-right-arrow:hover, .page-wrap .btn-right-arrow:active {
+	background-color: #e25556;
+}
+.page-wrap span, .page-wrap p {
+	color: #ffffff;
+}
+.page-wrap .input {
+	border: none;
+	border-radius: 4px;
+	background: #ffffff;
+}
+.page-wrap .input:hover, .page-wrap .input:focus {
+	background: #ffffff;
+}
+.dropdown-menu a {
+	background: none;
+	border: 1px solid #ccc;
+	color: #8e8e8e;
+	border-radius: 2px;
+	width: auto!important;
+	padding: 0 20px 0 10px;
+	line-height: 21px;
+}
+.dropdown-menu ul li {
+	height: auto;
+	line-height: normal
+}
+.dropdown-menu ul li a {
+	border: none;
+	padding: 0 20px 0 10px;
+	color: #fff;
+	height: auto;
+	border-radius: 0;
+}
+.page-dropdown:after {
+	background: url(../Images/xyft/003/icon_page_003.png) right top no-repeat;
+	height: 4px;
+	margin: 8px 0 0 4px;
+}
+.page-dropdown:hover:after {
+	background: url(../Images/xyft/003/icon_page_003.png) right -6px no-repeat;
+}
+.dropdown-menu ul {
+	margin: -1px 0;
+	border: 1px solid #464646;
+	background: #6E6F70;
+	border-radius: 0 0 3px 3px;
+}
+.dropdown-menu ul li a:hover {
+	color: #fff;
+	background: #333;
+}
+.page-dropdown:hover {
+	color: #FFF;
+	background: #6E6F70;
+}
+/*buttons*/
+.pkx-detail .btn-back, a.btn-recent, .report-head .btn-back, .list-content .six a, .report-option .search-btn {
+	border-radius: 24px;
+	color: #db2b2c;
+	border: 2px solid rgb(255, 255, 255);
+	color: #fff;
+}
+.list-content .six a {
+	color: #db2b2c;
+	border: 2px solid #efb4b7;
+	border: 2px solid rgba(219, 43, 44, 0.3);
+}
+.report-option .quick-btn, .alert-wrap .accept-btn {
+	border-radius: 24px;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	background: transparent;
+}
+.quick-btn:hover, .quick-btn:focus, .report-head .btn-back:hover, 
+.report-head .btn-back:active, .report-option .search-btn:hover, 
+.report-option .search-btn:focus, .alert-wrap .accept-btn:hover, .alert-wrap .accept-btn:active {
+	background-color: #ffffff;
+	color: #db2b2c;
+}
+.report-head .btn-back {
+	height: 27px;
+	line-height: 25px!important;
+	margin: 7px 0 0 0;
+}
+.pkx-detail .btn-back:hover, .pkx-detail .btn-back:active, a.btn-recent:hover, 
+a.btn-recent:active, .lottery-info .enter:hover, .lottery-info .enter:active, 
+.list-content .six a:active, .report-head .btn-back:hover, .report-head .btn-back:active {}
+.report-head .btn-back:hover, .report-head .btn-back:active {}
+.report-head .btn-back {}
+.report-head .btn-back:hover, .report-head .btn-back:active, .report-option .search-btn:hover, .report-option .search-btn:focus {}
+.report-option .search-btn {
+	background: url(../Images/xyft/003/uni_icon_003.png) -317px -69px no-repeat;
+}
+.report-option .search-btn:hover, .report-option .search-btn:focus {
+	background: #ffffff url(../Images/xyft/003/uni_icon_003.png) -317px -90px no-repeat;
+}
+.form-star input[type="radio"] + label:before, .report-option input[type="radio"] + label:before {
+	background: url(../Images/xyft/003/uni_icon_003.png) -236px -5px no-repeat;
+}
+.form-star input[type="radio"]:hover + label:before, .report-option input[type="radio"]:hover + label:before {
+	background: url(../Images/xyft/003/uni_icon_003.png?0603) -236px -5px no-repeat;
+}
+.form-star input[type="radio"]:checked + label:before, .report-option input[type="radio"]:checked + label:before {
+	background: url(../Images/xyft/003/uni_icon_003.png) -236px -21px no-repeat;
+}
+/*Calendar*/
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next, .ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover {
+	top: 3px;
+}
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-prev-hover {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next, .ui-datepicker .ui-datepicker-next-hover {
+	right: 2px;
+}
+.ui-datepicker .ui-datepicker-header {
+	height: auto!important
+}
+.ui-widget-header {
+	border: 1px solid #50545A;
+	background: #50545A;
+	color: #ffffff;
+	font-weight: bold;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+	border: 1px solid #C33E44;
+	background: #C33E44;
+	color: #F9F9F9 !important;
+}
+.ui-widget-content .ui-state-hover, .ui-widget-content .ui-state-focus {
+	border: 1px solid #C33E44;
+	background: #C33E44;
+	font-weight: bold;
+	color: #fff !important;
+	outline: none;
+}
+.ui-datepicker-header .ui-state-hover, .ui-datepicker-header .ui-state-focus {
+	border: 1px solid #ddd;
+	color: #fff;
+	background: none;
+	outline: none;
+}
+.ui-state-default, .ui-widget-content .ui-state-default {
+	color: #555;
+}
+.ui-state-active, .ui-widget-content .ui-state-active {
+	border: 1px solid #C33E44;
+	color: #C33E44;
+}
+.ui-slider-handle.ui-state-hover, .ui-slider-handle.ui-state-focus {
+	background: #50545A;
+	border: 1px solid #50545A;
+}
+.ui-slider .ui-widget-header {
+	background: #737D7D;
+}
+
+/*------------------customization 001----------------------*/
+
+@media screen and (max-width: 1279px) {
+.bet-option4-wrap .tab-content {
+	border-left: none
+}
+}
+/*pkx*/
+.list-content3 .six .wrap .t, .list-content3 .seven .wrap .t {
+	border-color: #ccc;
+}
+.list-title3 .ten a {
+	border-radius: 24px;
+	border: 1px solid #FFF;
+	font-size: 12px;
+	color: #fff;
+}
+.list-title3 .ten a:hover, .list-title3 .ten a.active {
+	color: #000;
+	background: #ffffff;
+}
+.list-content3 .six .wrap .t.mark, .list-content3 .seven .wrap .t.mark {
+	color: #db2b2c;
+}
+/*.nums li span{
+    background-image: url('Images/xyft/003/pkx_number_mask.png');
+}*/
+
+
+
+
+.pkx-detail .pkx-top ,.account-area ,.receipt-header{
+	background-color: #af1c23;
+}
+

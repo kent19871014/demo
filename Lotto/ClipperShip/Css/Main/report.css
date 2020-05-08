@@ -1,0 +1,512 @@
+@charset "utf-8";
+.report-head:after, .page-wrap:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/*report*/
+.report-option {
+	margin: 0;
+	padding: 7px 21px;
+	float: left;
+}
+.report-option input {
+	border: none;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	outline: none;
+	float: left;
+	font-size: 13px;
+	height: 27px;
+	line-height: 25px;
+	text-indent: 10px;
+}
+.report-option input:-moz-placeholder, .report-option input::-moz-placeholder {
+opacity: 1
+}
+.report-option input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: none;
+	margin: 0;
+	visibility: hidden
+}
+.report-option label {
+	float: left;
+	font-size: 13px;
+	height: 27px;
+	line-height: 31px;
+	margin: 0 10px;
+	position: relative;
+}
+.report-option label.label1, .report-option label.label2, .report-option label.label3 {
+	margin: 0 14px 0 0;
+}
+.report-option input[type="radio"] + label {
+	padding-left: 18px;
+	cursor: pointer;
+}
+.report-option input[type="radio"] + label:before {
+	content: "";
+	display: inline-block;
+	zoom: 1;
+	_height: 30px;
+	width: 11px;
+	height: 11px;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 9px;
+	top: 10px\0;
+}
+.report-option .time {
+	width: 153px;
+	cursor: pointer
+}
+.report-option .time, .report-option .quick-btn {
+	margin-right: 5px
+}
+.report-option .search-input {
+	width: 123px;
+}
+.report-option .search-btn, .report-option .quick-btn {
+	padding: 0 12px;
+	text-indent: 0
+}
+.report-option .search-btn {
+	padding: 0 28px 0 12px;
+	margin-right: 0;
+	position: relative;
+	margin-left: 5px;
+}
+.report-option .wrap1, .report-option .wrap2 {
+	float: left
+}
+.report-option .wrap1 {
+}
+/*Report*/
+.report-head {
+	font-size: 21px;
+}
+.drop-down-report {
+	margin: 0 20px;
+}
+.drop-down-report, .drop-down-report2 {
+	float: left;
+}
+.drop-down-report2 {
+}
+.drop-down-report > li > a, .drop-down-report2 > li > a {
+	padding: 10px 0;
+	position: relative;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+.drop-down-report > li, .drop-down-report2 > li {
+	padding-right: 27px;
+}
+.drop-down-report > li > a:after, .drop-down-report2 > li > a:after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 24px;
+	height: 24px;
+	right: -27px;
+	top: 8px;
+}
+.drop-down-report ul, .drop-down-report2 ul {
+	width: 148px;
+	right: -11px;
+	margin-top: -1px;
+}
+.drop-down-report ul:before, .drop-down-report2 ul:before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 15px;
+	height: 7px;
+	right: 16px;
+	top: -5px;
+	top: -5px\0;
+	z-index: 1;
+	background: url(../Images/xyft/report_list_arrow.png)!important;
+}
+.drop-down-report ul li, .drop-down-report2 ul li {
+	padding: 4px
+}
+.drop-down-report ul a, .drop-down-report2 ul a {
+	font-size: 14px;
+	padding: 5px;
+}
+.report-head .btn-back {
+	margin: 13px 0 0 0;
+	position: absolute;
+	right: 20px;
+}
+.list-title > *, .list-content > * {
+	text-align: center;
+	border-right: 1px solid;
+	display: table-cell;
+	vertical-align: middle;
+	word-break: break-word;
+}
+.list-title {
+	width: 100%;
+	display: table;
+}
+.list-title > * {
+	padding: 7px 0;
+}
+.list-title .one, .list-content .one {
+	padding-right: 0;
+	padding-left: 0;
+}
+.list-title .wrap, .list-content .wrap {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+.list-content {
+	width: 100%;
+	display: table;
+	border-bottom: 1px solid;
+}
+.list-content > * {
+	padding: 8px 12px
+}
+.list-content-wrap .list-content:last-child {
+	border-bottom: none
+}
+/* report - list */
+.list-title1 .one, .list-content1 .one {
+	width: 6%;
+}
+.list-title1 .two, .list-content1 .two {
+	width: 18%;
+}
+.list-title1 .three, .list-content1 .three {
+	width: 43%;
+}
+.list-title1 .four, .list-content1 .four {
+	width: 11%;
+}
+.list-title1 .five, .list-content1 .five {
+	width: 11%;
+}
+.list-title1 .six, .list-content1 .six {
+	width: 11%;
+	border-right: none
+}
+.list-content1 .two, .list-content1 .three {
+	text-align: left
+}
+/* report - history */
+.list-title2 .one, .list-content2 .one {
+	width: 6%;
+}
+.list-title2 .two, .list-content2 .two {
+	width: 18%;
+}
+.list-title2 .three, .list-content2 .three {
+	width: 37%;
+}
+.list-title2 .four, .list-content2 .four {
+	width: 11%;
+}
+.list-title2 .five, .list-content2 .five {
+	width: 11%;
+}
+.list-title2 .six, .list-content2 .six {
+	width: 11%;
+}
+.list-title2 .seven, .list-content2 .seven {
+	width: 6%;
+	border-right: none
+}
+.list-content2 .two, .list-content2 .three {
+	text-align: left
+}
+.list-content2 .three div, .list-content1 .three div {
+	line-height: 1.5;
+}
+.list-content2 .three a, .list-content1 .three a {
+	padding: 2px 5px;
+	line-height: normal;
+	display: inline-block;
+	margin-bottom: 4px;
+	margin-left: -4px;
+}
+.subtotal > * {
+	padding: 11px 0;
+}
+/* report - gameresult */
+.drop-down-title3 {
+	margin-left: 5px;
+}
+.drop-down-title3 li a {
+	line-height: 19px;
+	height: 19px;
+	padding: 0 14px;
+	padding-right: 16px;
+}
+.drop-down-title3 > li > a:after {
+	content: "";
+	position: absolute;
+	right: 3px;
+	top: 5px;
+	width: 10px;
+	height: 10px;
+}
+.drop-down-title3 ul a {
+	padding: 0 4px;
+	line-height: 22px;
+	height: 22px;
+	margin: 1px 0;
+}
+.list-title3 .one, .list-content3 .one, .list-title4 .one, .list-content4 .one {
+	width: 4%;
+}
+.list-title3 .two, .list-content3 .two, .list-title4 .two, .list-content4 .two {
+	width: 15%;
+}
+.list-title3 .three, .list-content3 .three, .list-title4 .three, .list-content4 .three {
+	width: 10%;
+}
+.list-title3 .five, .list-content3 .five, .list-title4 .six, .list-content4 .six {
+	width: 40%;
+}
+.list-title3 .six, .list-content3 .six, .list-title4 .seven, .list-content4 .seven, .list-title3 .seven, .list-content3 .seven, .list-title4 .eight, .list-content4 .eight {
+	width: 10%;
+}
+.list-title3 .seven, .list-content3 .seven, .list-title4 .eight, .list-content4 .eight {
+	border-right: none
+}
+.list-title3 .ten, .list-content3 .ten, .list-title4 .four, .list-content4 .four {
+	width: 11%;
+}
+.list-title3 .four, .list-title3-2 .four, .list-content3 .four, .list-title4 .five, .list-title4-2 .five, .list-content4 .five {
+	display: none
+}
+.list-title3 .five .t5, .list-content3 .five .t5, .list-title4 .six .t5, .list-content4 .six .t5 {
+	border-right: none !important
+}
+.list-content3 > *, .list-content4 > *, .list-content1 .six {
+	padding: 8px 0
+}
+.list-title3 .five span, .list-title3 .five .drop-down {
+	display: inline-block
+}
+.list-title3 .five, .list-title4 .six {
+	padding: 5px 0;
+}
+.list-title3-2 .five .wrap > *, .list-content3 .five .wrap > *, .list-title4 .six .wrap > *, .list-title4-2 .six .wrap > *, .list-content4 .six .wrap > * {
+	width: 20%;
+	display: table-cell;
+	padding: 8px 0;
+	border-right: 1px solid
+}
+.list-content3 .five .wrap > *, .list-content4 .six .wrap > * {
+	padding: 8px 0;
+	height: 33px\0;
+}
+/*.list-content3 .ten, .list-content4 .four { letter-spacing: 10px; text-indent: 10px;}*/
+
+.list-title3-2 .five, .list-content3 .five, .list-title3-2 > *, .list-title4-2 > *, .list-title4 .six, .list-title4-2 .six, .list-content4 .six {
+	padding: 0
+}
+.list-title3-2 .four .wrap > *, .list-title3-2 .five .wrap > *, .list-title4-2 .five .wrap > *, .list-title4-2 .six .wrap > * {
+	padding: 6px 0;
+}
+.page-wrap {
+	width: 100%;
+	margin: 16px auto 0;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 0;
+}
+.page-wrap p {
+	margin: 10px 0;
+	display: block;
+	width: 100%;
+	height: auto
+}
+.page-wrap > * {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	margin: 0 3px;
+	vertical-align: top;
+	font-size: 13px;
+}
+.page-wrap .page2, .page-wrap ul {
+	padding: 0 10px;
+	width: auto!important;
+}
+.page-wrap .input {
+	text-align: center;
+	width: 43px;
+}
+.report-money p {
+	float: left;
+	padding: 0 15px 0 0;
+	margin: 0
+}
+.report-money b {
+	letter-spacing: 1px
+}
+.list-content del {
+	letter-spacing: 1px;
+	padding-left: 10px;
+}
+.list-content .six a {
+	padding: 2px 9px;
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 1px;
+margin.:;
+	width: 84px;
+	margin: 5px auto;
+}
+.dropdown-menu {
+	width: auto;
+	margin: 0 5px 0 0;
+	height: 26px;
+}
+.dropdown-menu:hover > ul {
+	display: block
+}
+.dropdown-menu ul {
+	padding: 0;
+	display: none
+}
+.page-dropdown:after {
+	content: "";
+	position: absolute;
+	width: 7px!important;
+	height: 10px;
+	margin: 9px 0 0 7px!important;
+	background: url(../Images/xyft/icon_page.png) 0 0!important;
+}
+.page-dropdown:hover:after{
+	background: url(../Images/xyft/icon_page.png) 0 -6px!important;
+}
+.dropdown-menu a, .dropdown-menu ul li a {
+	padding: 5px 20px 10px 10px;
+	width: auto;
+	line-height: 17px;
+	display: inline-block;
+	height: 26px;
+}
+/*pkx report amber*/
+.list-title3 .two, .list-content3 .two {
+	width: 26%;
+}
+.list-title3 .ten, .list-content3 .ten {
+	width: 34%;
+	padding: 5px 3%;
+}
+.list-title3 .six, .list-content3 .six {
+	width: 15%;
+	padding: 0;
+}
+.list-title3 .seven, .list-content3 .seven {
+	width: 25%;
+	padding: 0;
+}
+.list-content3 .six .wrap .t, .list-content3 .seven .wrap .t {
+	width: 5%;
+	display: table-cell;
+	border-right: 1px solid;
+	padding: 12px 0;
+}
+.list-content3 .six .wrap .t:last-child, .list-content3 .seven .wrap .t:last-child {
+	border-right: none;
+}
+.list-content3 .two b {
+	font-weight: bold;
+}
+.list-title3 .ten a {
+	display: inline-block;
+	padding: 0 15px;
+	height: 21px;
+	line-height: 21px;
+	border-radius: 2px;
+	margin: 0 5px;
+}
+.nums li {
+	width: 10%;
+	float: left;
+	font-style: normal;
+	text-align: center;
+	line-height: 23px;
+	text-align: center;
+	position: relative;
+}
+.nums li span {
+	display: inline-block;
+    width: 23px;
+    height: 23px;
+	position: relative;
+	color: #fff;
+	border-radius: 50%;
+}
+/*number filter*/
+.nums.mode-shade i {
+	opacity: 0.2;
+}
+.nums.mode-shade i.noshade {
+	opacity: 1;
+}
+
+
+/*------------------ mediaqueries ----------------------*/
+
+@media only screen and (max-width: 1279px) {
+/*gameresult*/
+.list-title3 .six,  .list-content3 .six {
+	width: 12%;
+}
+.list-title3 .seven,  .list-content3 .seven {
+	width: 20%;
+}
+.list-content3 .six .wrap .t,  .list-content3 .seven .wrap .t {
+	width: 4%;
+}
+.list-title3 .ten,  .list-content3 .ten {
+	width: 34%;
+	padding: 8px 2%;
+}
+}
+ @media only screen and (max-width: 1246px) {
+.drop-down-report > li, .drop-down-report2 > li {
+	padding-right: 28px;
+}
+.drop-down-report > li > a:after, .drop-down-report2 > li > a:after {
+	right: -28px
+}
+.list-title3 .ten,  .list-content3 .ten {
+	width: 34%;
+	padding: 6px 1%;
+}
+}
+/*tempolate*/
+/*topbg*/
+/* .pkx-detail .history-info {
+	background-image: url(../Images/xyft/001/new/TopAside_BG_001.jpg);
+	position: relative;
+	overflow: hidden;
+}
+.pkx-detail .lottery-info {
+	background-image: url(../Images/xyft/001/new/TopAside_BG_001.jpg);
+}
+.pkx-detail .stop-info {
+	background-image: url(../Images/xyft/001/new/TopAside_BG_001.jpg);
+} */
